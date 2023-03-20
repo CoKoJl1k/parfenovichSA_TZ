@@ -49,7 +49,7 @@ class UsersList
      */
     public function getUsers($usersId)
     {
-        if (class_exists('Userss')) {
+        if (class_exists('Users')) {
             $user = new Users();
             return $user->getUserById($usersId);
         } else {
